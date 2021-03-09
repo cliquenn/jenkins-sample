@@ -8,6 +8,12 @@
   <name>SampleProject</name>
   <url>http://maven.apache.org</url>
   
+  <properties>
+  <sonar.projectKey>cliquenn_jenkins-sample</sonar.projectKey>
+  <sonar.organization>cliquenn</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
